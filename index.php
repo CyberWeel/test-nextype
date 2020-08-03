@@ -1,11 +1,23 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная</title>
-</head>
-<body>
+<?php
+require_once $_SERVER['DOCUMENT_ROOT'].'/core.php';
+$title = 'Главная';
+?>
 
-</body>
-</html>
+<?php require_once TEMPLATES.'/header.php'?>
+
+<table>
+    <thead>
+        <tr>
+            <td>Задание</td>
+            <td>Ссылка на задание</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Task 1.1</td>
+            <td><a href="<?=TASKS.'/task11.php'?>">Task 1.1</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<?php require_once TEMPLATES.'/footer.php'?>
