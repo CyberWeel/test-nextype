@@ -8,14 +8,18 @@ $title = 'Главная';
 <table>
     <thead>
         <tr>
-            <td>Задание</td>
-            <td>Ссылка на задание</td>
+            <th>Задание</th>
+            <th>Ссылка на задание</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>Task 1.1</td>
             <td><a href="<?=TASKS.'/task11.php'?>">Task 1.1</a></td>
+        </tr>
+        <tr>
+            <td>Task 1.2</td>
+            <td><a href="<?=TASKS.'/task12.php'?>">Task 1.2</a></td>
         </tr>
     </tbody>
 </table>
