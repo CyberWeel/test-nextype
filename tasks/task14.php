@@ -38,8 +38,4 @@ if (!empty($_GET['set_viewed'])) {
 </div>
 <?php endforeach ?>
 
-<pre>
-<?php # print_r($result)?>
-</pre>
-
 <?php require_once TEMPLATES.'/footer.php'?>
