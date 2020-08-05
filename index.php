@@ -29,6 +29,10 @@ $title = 'Главная';
             <td>Task 1.4</td>
             <td><a href="<?=TASKS.'/task14.php'?>">Task 1.4</a></td>
         </tr>
+        <tr>
+            <td>Task 2.1</td>
+            <td><a href="<?=TASKS.'/task21.php'?>">Task 2.1</a></td>
+        </tr>
     </tbody>
 </table>
 
